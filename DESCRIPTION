@@ -1,0 +1,25 @@
+Package: bifrost
+Title: Convert R Markdown Files into Jupyter Notebook
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shinya",
+           family = "Uryu",
+           role = c("aut", "cre"),
+           email = "suika1127@gmail.com",
+           comment = c(ORCID = "0000-0002-0493-6186"))
+Description: R interface to 'jupytext', a plugin for Jupyter that allows 
+  for the conversion of several text files to each other, 
+  including the 'ipynb' format and R Markdown.
+SystemRequirements: Python (>= 3.4.0)
+Imports:
+    processx (>= 3.4.4),
+    reticulate (>= 1.16),
+    xfun (>= 0.18)
+Suggests:
+    IRkernel (>= 1.1.1),
+    JuliaCall (>= 0.17.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
